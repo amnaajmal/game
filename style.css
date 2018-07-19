@@ -1,0 +1,44 @@
+body{
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png');
+}
+.box{
+  width: 90%;
+  max-width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: sans-serif;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  background: rgba(102, 0, 102,.75)
+}
+.paragraph{
+  background: #111;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.btn{
+  background: rgb(0, 102, 102);
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgb(10, 112, 112);
+}
+.btn p{
+  font-weight:bold;
+  padding: 0;
+}
