@@ -38,7 +38,8 @@ body{
 .btn:hover{
   background: rgb(10, 112, 112);
 }
-.btn p{
+.btn p
+{
   font-weight:bold;
   padding: 0;
 }
